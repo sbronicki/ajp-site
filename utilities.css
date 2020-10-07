@@ -42,6 +42,7 @@ bg-light {
 	height: 100%;
 	flex-direction: column;
 }
+/* this makes non yt videos responsive >video > iframe for yt */
 .flex-items video {
 	height: 50vw;
 }
@@ -81,6 +82,19 @@ bg-light {
 	justify-content: center;
 	padding: 45px;
 }
+.flex-columns .column-2 .form-top {
+	justify-content: flex-start;
+	align-items: flex-start;
+	border: cornflowerblue 3px solid;
+	border-radius: 5%;
+}
+
+.flex-columns .column-2 .mycontact {
+	padding-top: 20px;
+	align-items: center;
+	text-align: center;
+}
+
 .flex-columns h3 {
 	font-size: 36px;
 	font-weight: 100;
