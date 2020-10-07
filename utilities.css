@@ -1,13 +1,13 @@
 /* Text colors */
-.text-secondary {
-	color: #0284d0;
+.text-primary {
+	color: #fff;
 }
 .btn {
 	cursor: pointer;
 	display: inline-block;
 	padding: 10px 30px;
 	color: #fff;
-	background-color: lightskyblue;
+	background-color: cornflowerblue;
 	border: none;
 	border-radius: 5px;
 }
@@ -15,36 +15,33 @@
 	opacity: 0.9;
 }
 .btn-primary,
-.btn-secondary,
-.bg-secondary {
-	background: #0284d0;
+.bg-primary {
+	background: cornflowerblue;
 	color: #fff;
 }
+.btn-secondary,
 .btn-dark,
 .bg-dark {
-	background: #111;
+	background: #333;
 	color: #fff;
 }
 .btn-light,
 bg-light {
 	background: #f4f4f4;
-	color: #111;
+	color: #333;
 }
 .btn-outline {
 	background: transparent;
 	border: 1px solid #fff;
 }
-/* Flex Items */
+/* Flax Items */
 .flex-items {
 	display: flex;
 	text-align: center;
 	justify-content: center;
 	text-align: center;
-	flex-direction: column;
 	height: 100%;
-}
-.flex-items video {
-	height: 50vh;
+	flex-direction: column;
 }
 .flex-items > div {
 	padding: 20px;
@@ -105,6 +102,10 @@ bg-light {
 	font-size: 40px;
 	margin: 20px 0;
 }
+.section-header h3,
+p {
+	font-weight: 1;
+}
 .section-padding {
 	padding: 20px 20px 40px;
 }
@@ -116,6 +117,6 @@ bg-light {
 }
 .flex-grid .column {
 	flex: 25%;
-	max-width: 25%;
+	max-width: 75%;
 	padding: 0 4px;
 }
