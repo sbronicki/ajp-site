@@ -9,9 +9,19 @@
     <link rel="stylesheet" href="style.css">
     <title>Anthony J. Potter | Actor, Writer, Play Write, Musician,...</title>
 </head>
+
+<!-- Still need to:
+    1. change latin
+    2. add new / unique pictures
+    3. bring message form up (align to top)
+    4. wire up click to enlarge image function
+    5. add contact info
+    6. wire up social media
+    7. wire up message form submit
+-->
 <body id="home">
     <header class="hero">
-        <div id="navbar" class="navbar">
+        <div id="navbar" class="navbar top">
             <h1 class="logo">
                 <span class="text-primary"><i class="fas fa-film"></i></span> Anthony Potter
             </h1>
@@ -130,6 +140,7 @@
             </header>
             <div class="flex-items">
                 <div>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/NH6_wWrTlnQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     <video controls>
                         <source src="./media/Goldenstate reeel.mp4" type="video/mp4">
                       Your browser does not support the video tag.
@@ -137,13 +148,15 @@
                     <h2>AP in Golden State by Anon</h2>
                 </div>
                 <div>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/I4PtsWSHFF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                     -->
                     <video controls>
-                        <source src="./media/SilentHellp.mp4" type="video/mp4">
+                    <source src="./media/SilentHellp.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                       </video> 
                     <h2>AP in Silent Help by Anon</h4>
                 </div>
                 <div>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QgMbAgf5gng" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     <video controls>
                         <source src="./media/DSCF1877.mp4" type="video/mp4">
                       Your browser does not support the video tag.
@@ -161,8 +174,9 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="column-2 bg-light">
-                        <h2>Want to hire me?</h2>
+                    <div class="column-2 bg-light flex-items">
+                        <div class="form-top">
+                            <h2>Want to hire me?</h2>
                         <h3>Leave a message</h3>
                         <form action="" class="callback-form">
                             <div class="form-control">
@@ -189,6 +203,13 @@
                             </div>
                             <input type="submit" value="Send" id="submit" class="btn">
                         </form>
+                        </div>
+                        <div class="mycontact">
+                            <h3>Anthony J. Potter</h3>
+                            <h2>anthonyjpotter@gmail.com</h2>
+                            <h2>address</h2>
+                            <h2>phone# </h2>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -198,11 +219,12 @@
         <div class="social">
             <a href=""><i class="fab fa-facebook fa-2x"></i></a>
             <a href=""><i class="fab fa-twitter fa-2x"></i></a>
-            <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="https://www.youtube.com/user/Pimpdaddypottz"><i class="fab fa-youtube fa-2x"></i></a>
             <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
         </div>
         <p>Copyright &copy; 2020 AJP ENTERPRISES</p>
     </footer>
     
 </body>
+<script src="index.js"></script>
 </html>

@@ -42,6 +42,7 @@ img {
 	position: fixed;
 	top: 0px;
 	padding: 0 30px;
+	transition: 0.3s ease-in;
 }
 .navbar a {
 	color: #fff;
@@ -56,6 +57,9 @@ img {
 }
 .navbar .logo {
 	font-weight: 500;
+}
+.navbar.top {
+	background: transparent;
 }
 /* header */
 .hero {
