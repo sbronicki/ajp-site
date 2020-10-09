@@ -8,6 +8,9 @@
 main {
 	display: none;
 }
+.content em {
+	font-size: 30px;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	background: #fff;
